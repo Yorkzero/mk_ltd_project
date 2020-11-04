@@ -1,0 +1,23 @@
+stm8s_tim4.pbi: \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\src\stm8s_tim4.c \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_tim4.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc/stm8s.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\User_App\stm8s_conf.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_adc1.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_awu.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_beep.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_clk.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_exti.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_flash.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_gpio.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_i2c.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_itc.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_iwdg.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_rst.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_spi.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_tim1.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_tim2.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_uart1.h \
+  D:\myfile_yan\labelPrinter-10.23\paperPrinter_project_v1.0\STM8S_StdPeriph_Driver\inc\stm8s_wwdg.h \
+  D:\IAR\stm8\inc\c\intrinsics.h

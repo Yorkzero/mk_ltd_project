@@ -1,0 +1,2 @@
+---- FlagStatus Matches (1 in 0 files) ----
+stm8s.h (STM8S_StdPeriph_Driver\inc) line 233 : typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus, BitStatus, BitAction;

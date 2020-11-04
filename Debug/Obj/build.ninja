@@ -1,0 +1,43 @@
+#Generating source browse information for project paperPrinter_project_v1.0
+
+
+#Abbreviations
+cc = D$:\IAR\common\bin\SourceIndexer.exe
+ll = D$:\IAR\common\bin\PbdLink.exe
+bd = D$:\IAR\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build delay.pbi : index delay.xcl
+build stm8s_adc1.pbi : index stm8s_adc1.xcl
+build stm8s_awu.pbi : index stm8s_awu.xcl
+build stm8s_clk.pbi : index stm8s_clk.xcl
+build stm8s_exti.pbi : index stm8s_exti.xcl
+build stm8s_flash.pbi : index stm8s_flash.xcl
+build stm8s_gpio.pbi : index stm8s_gpio.xcl
+build stm8s_tim1.pbi : index stm8s_tim1.xcl
+build stm8s_tim2.pbi : index stm8s_tim2.xcl
+build stm8s_tim4.pbi : index stm8s_tim4.xcl
+build stm8s_uart1.pbi : index stm8s_uart1.xcl
+build main.pbi : index main.xcl
+build stm8s_it.pbi : index stm8s_it.xcl
+build paperPrinter_project_v1.0_part0.pbi : link delay.pbi stm8s_adc1.pbi stm8s_awu.pbi stm8s_clk.pbi
+build paperPrinter_project_v1.0_part1.pbi : link stm8s_exti.pbi stm8s_flash.pbi stm8s_gpio.pbi stm8s_tim1.pbi
+build paperPrinter_project_v1.0_part2.pbi : link stm8s_tim2.pbi stm8s_tim4.pbi stm8s_uart1.pbi main.pbi
+build paperPrinter_project_v1.0_part3.pbi : link stm8s_it.pbi
+build paperPrinter_project_v1.0.pbd : link paperPrinter_project_v1.0_part0.pbi paperPrinter_project_v1.0_part1.pbi paperPrinter_project_v1.0_part2.pbi paperPrinter_project_v1.0_part3.pbi
+build paperPrinter_project_v1.0.pbw : browsedata paperPrinter_project_v1.0.pbd
+
+
